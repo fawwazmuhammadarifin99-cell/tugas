@@ -143,7 +143,7 @@ elif st.session_state.scene == "tutup_info":
     - Potensi boikot dan keresahan sosial meningkat.  
     - Prinsip keadilan dan keterbukaan dalam Pancasila dilanggar.
     """)
-    st.markdown("👉 **Upload Canva hasil karyamu:** [Canva Link](https://www.canva.com/)")
+    st.markdown("👉 **Upload Canva hasil karyamu:** [Link Canva Poster](https://www.canva.com/design/DAG11CwV9Kg/AVvhty1eCf9LEqUoHuo1Bg/edit?utm_content=DAG11CwV9Kg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)")
     if st.button("🔁 Main Lagi"):
         st.session_state.scene = "intro"
         st.session_state.log = []
@@ -160,7 +160,7 @@ elif st.session_state.scene == "krisis":
     - Pendapatan masyarakat turun, harga barang naik.  
     - Pemerintah dianggap lamban dan tidak tanggap.
     """)
-    st.markdown("👉 **Upload Canva tugasmu di sini:** [Canva Link](https://www.canva.com/)")
+    st.markdown("👉 **Upload Canva tugasmu di sini:** [Link Canva Poster](https://www.canva.com/design/DAG11CwV9Kg/AVvhty1eCf9LEqUoHuo1Bg/edit?utm_content=DAG11CwV9Kg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)")
     if st.button("🔁 Main Lagi"):
         st.session_state.scene = "intro"
         st.session_state.log = []
